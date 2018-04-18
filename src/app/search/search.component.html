@@ -1,0 +1,8 @@
+
+<div>
+  <label>Stock Ticker</label>
+  <input id="ticker" type="text" placeholder="Enter Stock ticker to search">
+  <button (click)="search()">search</button>
+</div>
+
+<app-stock-info [clicked]="clicked" [ticker]="ticker" [price]="price" [error]="error"></app-stock-info>
