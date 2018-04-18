@@ -10,7 +10,7 @@ export class SearchComponent implements OnInit {
 
   clicked: boolean = false
   ticker: string = ''
-  error: boolean = false
+  error: boolean = true
   price: number = 0
 
   constructor(private priceService: PriceService) { }

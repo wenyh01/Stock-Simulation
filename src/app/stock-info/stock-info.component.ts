@@ -9,7 +9,6 @@ import { PriceService } from '../price.service'
 export class StockInfoComponent implements OnInit {
   @Input() clicked: boolean
   @Input() ticker: string
-
   @Input() price: number
   @Input() error: boolean
 
@@ -17,7 +16,6 @@ export class StockInfoComponent implements OnInit {
 
   ngOnInit() {
   }
-
 
 
 }
